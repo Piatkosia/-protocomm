@@ -1,8 +1,11 @@
 ﻿<Window x:Class="protocomm.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Tu coś będzie" Height="350" Width="525">
+        Title="Zabawa w tworzenie protokołów komunikacyjnych" Height="350" Width="525" Activated="Window_Activated">
     <Grid>
-        
+        <Label Content="Lista metod:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ListBox Name="Showing" HorizontalAlignment="Left" Height="247.761" Margin="10,36,0,0" VerticalAlignment="Top" Width="468.657"/>
+        <Button Content="Dodaj metodę" HorizontalAlignment="Left" Margin="116.896,10,0,0" VerticalAlignment="Top" Width="112.313" RenderTransformOrigin="0.655,0.67" Click="Button_Click"/>
+
     </Grid>
 </Window>
